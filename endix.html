@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>HELLO IN OUR WEBSITE !</h1>
+<h2>Try This Calculater !</h2>
+    <div class="wrapper">
+        <div class="note note2">Your result :</div>
+        <div class="myresult">
+            <input type="number" id="finalresult" class="result" value="0">
+        </div>
+        <div class="maths">
+            <div class="first">
+                <button class="operations" id="add" onclick="getOp('+')" >+</button>
+                <button class="numbers" id="seven" onclick="getnumbers(7)">7</button>
+                <button class="numbers" id="four" onclick="getnumbers(4)">4</button>
+                <button class="numbers" id="one" onclick="getnumbers(1)">1</button>
+                <button class="numbers" id="zero" onclick="getnumbers(0)">0</button>
+            </div>
+            <div class="second">
+                <button class="operations" id="sub" onclick="getOp('-')">-</button>
+
+                <button class="numbers" id="eight" onclick="getnumbers(8)">8</button>
+                <button class="numbers" id="five " onclick="getnumbers(5)">5</button>
+                <button class="numbers" id="tow" onclick="getnumbers(2)">2</button>
+                <button class="numbers" id="dot">.</button>
+
+
+            </div>
+
+
+            <div class="third">
+                <button class="operations" id="mult" onclick="getOp('X')">X</button>
+                <button class="numbers" id="nine" onclick="getnumbers(9)">9</button>
+                <button class="numbers" id="six" onclick="getnumbers(6)">6</button>
+                <button class="numbers" id="" onclick="getnumbers(3)">3</button>
+                <button class="clear operations" id="cls" onclick="cls()">AC</button>
+
+            </div>
+
+            <div class="fourth">
+                <button class="operations" id="divis" onclick="getOp('÷')">÷</button>
+                <button class="equal operations" id="eval" onclick="eval()">=</button>
+
+            </div>
+        </div>
+        <div class="notes">Sorry! My Calc Accept only one digit :(</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
