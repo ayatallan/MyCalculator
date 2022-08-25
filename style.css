@@ -21,6 +21,7 @@ input::-webkit-inner-spin-button {
     border-radius: 50px;
 padding: 15px;
 padding-bottom: 25px;
+box-shadow: 7px 6px 8px rgb(126, 105, 105);
 }
 
 .myresult {
